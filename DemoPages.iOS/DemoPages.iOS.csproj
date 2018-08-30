@@ -156,4 +156,10 @@
       <Name>DemoPages</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\4.png" />
+    <BundleResource Include="Resources\3.png" />
+    <BundleResource Include="Resources\2.png" />
+    <BundleResource Include="Resources\1.png" />
+  </ItemGroup>
 </Project>
