@@ -11,7 +11,7 @@ namespace DemoPages
         {
             InitializeComponent();
 
-            var navigationPage = new NavigationPage(new DemoTabbedPage());
+            var navigationPage = new NavigationPage(new DemoCarouselPage());
             navigationPage.BarBackgroundColor = Color.Black;
             navigationPage.BarTextColor = Color.White;
             MainPage = navigationPage;
