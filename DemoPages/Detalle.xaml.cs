@@ -5,9 +5,9 @@ using Xamarin.Forms;
 
 namespace DemoPages
 {
-    public partial class DemoMasterDetail : MasterDetailPage
+    public partial class Detalle : ContentPage
     {
-        public DemoMasterDetail()
+        public Detalle()
         {
             InitializeComponent();
         }
