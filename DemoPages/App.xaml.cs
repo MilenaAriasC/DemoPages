@@ -11,7 +11,7 @@ namespace DemoPages
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new DemoMasterDetail();
         }
 
         protected override void OnStart()
