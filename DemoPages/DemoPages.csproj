@@ -15,11 +15,14 @@
     <Compile Remove="DemoNavegationPage.xaml.cs" />
     <Compile Remove="DemoCarouselPage.cs" />
     <Compile Remove="CarouselClass.cs" />
+    <Compile Remove="MaterPage.xaml.cs" />
+    <Compile Remove="DemoMenuMasterDetail.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Remove="MyPage.xaml" />
     <EmbeddedResource Remove="NavegationPage.xaml" />
     <EmbeddedResource Remove="DemoNavegationPge.xaml" />
     <EmbeddedResource Remove="DemoNavegationPage.xaml" />
+    <EmbeddedResource Remove="MaterPage.xaml" />
   </ItemGroup>
 </Project>

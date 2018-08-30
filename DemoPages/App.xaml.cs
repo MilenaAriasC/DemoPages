@@ -11,10 +11,11 @@ namespace DemoPages
         {
             InitializeComponent();
 
-            var navigationPage = new NavigationPage(new DemoCarouselPage());
+          /*  var navigationPage = new NavigationPage(new DemoCarouselPage());
             navigationPage.BarBackgroundColor = Color.Black;
             navigationPage.BarTextColor = Color.White;
-            MainPage = navigationPage;
+            MainPage = navigationPage; */
+            MainPage = new MainPage();
         }
 
         protected override void OnStart()
