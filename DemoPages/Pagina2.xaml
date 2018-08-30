@@ -6,7 +6,7 @@
                Text="Hola Pagina 2 "
                HorizontalOptions="CenterAndExpand"
                VerticalOptions="CenterAndExpand"/>
-        <Button x:Name="btntext"
+        <Button x:Name="btntest"
                 Text="Boton 1"
                 BackgroundColor="Lime"
                 VerticalOptions="EndAndExpand"

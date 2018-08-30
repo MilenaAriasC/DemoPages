@@ -13,6 +13,7 @@
     <Compile Remove="NavegationPage.xaml.cs" />
     <Compile Remove="DemoNavegationPge.xaml.cs" />
     <Compile Remove="DemoNavegationPage.xaml.cs" />
+    <Compile Remove="DemoCarouselPage.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Remove="MyPage.xaml" />
