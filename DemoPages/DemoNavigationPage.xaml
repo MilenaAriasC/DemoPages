@@ -3,7 +3,8 @@
     <ContentPage.Content>
         <StackLayout>
             <Label Text="esta es una pagina de navegacion"
-                   VerticalOptions="CenterAndExpand"/>
+                   VerticalOptions="CenterAndExpand"
+                   XAlign="Center"/>
             <Button Text=" pagina 2"
                     Clicked="Button_Clicked"
                     BackgroundColor="Fuchsia"

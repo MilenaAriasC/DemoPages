@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="DemoPages.Pagina2">
     <ContentPage.Content>
-        <Label Text="Hola Pagina 2 "/>
-
+        <StackLayout>
+        <Label x:Name="loption"
+               Text="Hola Pagina 2 "
+               HorizontalOptions="CenterAndExpand"
+               VerticalOptions="CenterAndExpand"/>
+        <Button x:Name="btntext"
+                Text="Boton 1"
+                BackgroundColor="Lime"
+                VerticalOptions="EndAndExpand"
+                />
+             <Button x:Name="btntres"
+                     Text="Boton 2"
+                BackgroundColor="Yellow"/>
+        </StackLayout>
     </ContentPage.Content>
 </ContentPage>
